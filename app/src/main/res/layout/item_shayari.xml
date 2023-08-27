@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:id="@+id/shayari_view"
+        android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            android:id="@+id/rec_animation"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:lottie_fileName="splash_anim.json"
+            app:lottie_speed="1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/mainBack"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/regular"
+            android:id="@+id/itemShayari"
+            android:text="हर पर्वत को झुका नही सकते,
+हर दरिया को सुखा नही सकते,
+तुम हमे भूल जाओ भले ही,
+लेकिन हम तुम्हे कभी भुला नही सकते।"/>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:id="@+id/linear_frag"
+                android:background="#70000000"
+                android:orientation="horizontal">
+                
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:id="@+id/btnShare"
+                        android:layout_gravity="center"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        android:background="@drawable/btn_round">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/share"/>
+                    </LinearLayout>
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:id="@+id/btnCopy"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_round">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/copy"/>
+                    </LinearLayout>
+
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                    <LinearLayout
+                        android:layout_width="40dp"
+                        android:padding="10dp"
+                        android:layout_gravity="center"
+                        android:layout_height="40dp"
+                        android:id="@+id/btnWhatsapp"
+                        android:background="@drawable/btn_round">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/whatsapp"/>
+                    </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

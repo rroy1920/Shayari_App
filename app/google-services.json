@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "583050770993",
+    "project_id": "quizo-a24a0",
+    "storage_bucket": "quizo-a24a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583050770993:android:9e9e5bd3141fd1d9a0f310",
+        "android_client_info": {
+          "package_name": "com.example.shayari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583050770993-4d6hsujevo6t35set6se3qnrqs4d6hvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKPw-Hq1o3IV77b5c6HEJKtYqvLrz5zws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583050770993-4d6hsujevo6t35set6se3qnrqs4d6hvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
